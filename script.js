@@ -3,7 +3,7 @@
 // Selecting Elements
 const score0El = document.getElementById('score--0')
 const score1El = document.getElementById('score--1')
-const currentScore0El = document.getElementById('curent--0')
+const currentScore0El = document.getElementById('current--0')
 const currentScore1El = document.getElementById('current--1')
 const diceEl = document.querySelector('.dice')
 const btnNew = document.querySelector('.btn--new')
@@ -28,6 +28,7 @@ btnRoll.addEventListener('click', function() {
   //check for rolled 1; if true switch to next player
   if (dice != 1) {
     currentScore += dice
+    currentScore0El.textContent = currentScore // change later
   } else {
 
   }
