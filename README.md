@@ -1,6 +1,6 @@
 # Pick Game JavaScript
 The follwing application is a game built during the Uedmy Course: [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)
-# ![Landing Page]()
+# ![Landing Page](PickGame.png)
 
 ## Technologies Used:
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
