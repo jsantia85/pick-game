@@ -13,6 +13,8 @@ score0El.textContent = 0
 score1El.textContent = 0
 diceEl.hidden = true
 
+let currentScore = 0 
+
 // Rolling Dice Functionality 
 btnRoll.addEventListener('click', function() {
   // generate a random dice roll
@@ -22,4 +24,9 @@ btnRoll.addEventListener('click', function() {
   diceEl.hidden = false
   diceEl.src = `dice-${dice}.png`
   //check for rolled 1; if true switch to next player
+  if (dice != 1) {
+
+  } else {
+
+  }
 })
