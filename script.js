@@ -17,7 +17,9 @@ diceEl.hidden = true
 btnRoll.addEventListener('click', function() {
   // generate a random dice roll
   const dice = Math.trunc(Math.random() * 6) + 1
+  console.log(dice)
   // display dice
   diceEl.hidden = false
+  diceEl.src = `dice-${dice}.png`
   //check for rolled 1; if true switch to next player
 })
